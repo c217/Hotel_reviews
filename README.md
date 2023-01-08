@@ -2,10 +2,22 @@
 
 This project aims to analyze hotel reviews and determine the strong and weak points of each hotel. The goal is to create an API that can provide this information to hotels, so they can improve and address any issues identified in the reviews. The data used in this project was webscrapped from Tripadvisor.
 
+The `Rendu_final` file  contain : 
+- the report `Rapport_GEFFLOT_PENICHON_GHAZALI_AIYAD_MENANI.ipynb`
+- the production `Production_GEFFLOT_PENICHON_GHAZALI_AIYAD_MENANI.ipynb` with 2 models `modele_NER_BERT` and `modele_sentiment_BERT` 
+- the FastAPI `main.py`
+- the main Database example `reviews_google.xlsx`
+
+### Main notebook
+- `Rapport_GEFFLOT_PENICHON_GHAZALI_AIYAD_MENANI.ipynb`: This is the main notebook containing every model and the explanations for each step. It serves as a report and does not need to be run.
+- `Production_GEFFLOT_PENICHON_GHAZALI_AIYAD_MENANI.ipynb`: This is the main notebook containing the main model who will be used. It is ready to be run.
+
+### FastAPI
+- `main.py`: This is the FastAPI. It is ready to run.
+
 ## Data
 
-The following files contain data used in this project:
-
+The Annexe file contain data used in this project: 
 - `reviews_google.xlsx`: This is the dataset of reviews that we webscrapped from the Tripadvisor website.
 - `reviews_cleaned.xlsx`: This is the dataset of reviews after we cleaned the text.
 - `reviews_target.xlsx`: This is the dataset where we tried to create a target by labeling the data with a BERT model.
@@ -18,13 +30,6 @@ The following notebook was used to label the data:
 ## Files
 
 The repository contains the following files:
-
-### Main notebook
-- `Rapport_GEFFLOT_PENICHON_GHAZALI_AIYAD_MENANI.ipynb`: This is the main notebook containing every model and the explanations for each step. It serves as a report and does not need to be run.
-- `Production_GEFFLOT_PENICHON_GHAZALI_AIYAD_MENANI.ipynb`: This is the main notebook containing the main model who will be used. It is ready to be run.
-
-### FastAPI
-- `main.py`: This is the FastAPI. It is ready to run.
 
 ### Specific models
 - `Annotation using a RoBERTa model.ipynb`: This is the notebook used to label the data using a BERT model for train purposes.

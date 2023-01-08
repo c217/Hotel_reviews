@@ -23,6 +23,9 @@ The repository contains the following files:
 - `Rapport_GEFFLOT_PENICHON_GHAZALI_AIYAD_MENANI.ipynb`: This is the main notebook containing every model and the explanations for each step. It serves as a report and does not need to be run.
 - `Production_GEFFLOT_PENICHON_GHAZALI_AIYAD_MENANI.ipynb`: This is the main notebook containing the main model who will be used. It is ready to be run.
 
+### FastAPI
+- `main.py`: This is the FastAPI. It is ready to run.
+
 ### Specific models
 - `Annotation using a RoBERTa model.ipynb`: This is the notebook used to label the data using a BERT model for train purposes.
 - `NER subject and nouns.ipynb`: This notebook contains a specific model where we tried to do a named entity recognition (NER) task followed by a sentiment analysis task to deduce the positive and negative points of a certain hotel.

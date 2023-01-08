@@ -17,7 +17,7 @@ The `Rendu_final` file  contain :
 
 ## Data
 
-The Annexe file contain data used in this project: 
+The `Annexe` file contain data used in this project: 
 - `reviews_google.xlsx`: This is the dataset of reviews that we webscrapped from the Tripadvisor website.
 - `reviews_cleaned.xlsx`: This is the dataset of reviews after we cleaned the text.
 - `reviews_target.xlsx`: This is the dataset where we tried to create a target by labeling the data with a BERT model.
